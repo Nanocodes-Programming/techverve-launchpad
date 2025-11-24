@@ -5,6 +5,28 @@ import { Calendar, Clock, CheckCircle2, AlertCircle } from "lucide-react";
 import heroImage from "@/assets/hero-tech-professionals.jpg";
 import { useState, useEffect, useRef } from "react";
 
+const interestOptions = [
+  { value: "software", label: "Software Development" },
+  { value: "uiux", label: "UI/UX Design" },
+  { value: "python", label: "Python Development" },
+  { value: "java", label: "Java Development" },
+  { value: "full", label: "Full Package" },
+  { value: "frontend", label: "Frontend Development" },
+  { value: "data-analysis", label: "Data Analysis" },
+  { value: "virtual-assistant", label: "Virtual Assistant" },
+  { value: "artificial-intelligence", label: "Artificial Intelligence" },
+  { value: "cyber-security", label: "Cyber Security" },
+  { value: "digital-marketing", label: "Digital Marketing" },
+  { value: "wordpress-development", label: "Wordpress Development" },
+  { value: "uiux-designer", label: "UI/UX Designer" },
+  { value: "graphic-designer", label: "Graphic Designer" },
+  { value: "data-science", label: "Data Science" },
+  { value: "mobile-app-development", label: "Mobile App Development" },
+  { value: "backend-development", label: "Backend Development" },
+  { value: "machine-learning", label: "Machine Learning" },
+  { value: "ethical-hacking", label: "Ethical Hacking" },
+];
+
 const Hero = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const firstInputRef = useRef<HTMLInputElement>(null);
@@ -139,7 +161,7 @@ const Hero = () => {
 
             <h1 className="text-3xl sm:text-4xl font-bold leading-tight lg:text-5xl xl:text-6xl">
               Stuck in a Dead-End Job?{" "}
-              <span className="text-secondary">Learn Tech Skills</span> That Pay ₦6M/month
+              <span className="text-secondary">Learn Tech Skills</span> That Pay 3300k to ₦6M/month
             </h1>
 
             <p className="text-base sm:text-lg text-white/90 lg:text-xl">
@@ -244,11 +266,11 @@ const Hero = () => {
                       <SelectValue placeholder="Interest*" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="software">Software Development</SelectItem>
-                      <SelectItem value="uiux">UI/UX Design</SelectItem>
-                      <SelectItem value="python">Python Development</SelectItem>
-                      <SelectItem value="java">Java Development</SelectItem>
-                      <SelectItem value="full">Full Package</SelectItem>
+                      {interestOptions.map((option) => (
+                        <SelectItem key={option.value} value={option.value}>
+                          {option.label}
+                        </SelectItem>
+                      ))}
                     </SelectContent>
                   </Select>
                 </div>
