@@ -44,7 +44,7 @@ const FAQ = () => {
             <div className="h-1 w-24 bg-secondary mx-auto rounded-full"></div>
           </div>
           
-          <Accordion type="single" collapsible className="space-y-3 sm:space-y-4">
+          <Accordion type="multiple" className="space-y-3 sm:space-y-4">
             {faqs.map((faq, index) => (
               <AccordionItem 
                 key={index} 
@@ -52,7 +52,7 @@ const FAQ = () => {
                 className="border-2 rounded-xl bg-card shadow-card hover:shadow-premium transition-all px-4 sm:px-6"
               >
                 <AccordionTrigger className="text-left text-sm sm:text-base font-semibold hover:text-primary">
-                  ❓ {faq.question}
+                  {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-sm sm:text-base text-muted-foreground pt-2">
                   {faq.answer}

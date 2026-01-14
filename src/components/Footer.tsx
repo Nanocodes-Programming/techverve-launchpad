@@ -1,4 +1,4 @@
-import { Award, Star } from "lucide-react";
+import { Award, Mail, Phone, Star } from "lucide-react";
 import logo from "@/assets/techverve-logo.png";
 
 const Footer = () => {
@@ -31,8 +31,9 @@ const Footer = () => {
             <p className="text-xs sm:text-sm text-muted-foreground">
               © 2024 TechVerve. All rights reserved.
             </p>
-            <p className="text-xs sm:text-sm text-muted-foreground">
-              📞{" "}
+
+            <p className="text-xs sm:text-sm text-muted-foreground flex items-center gap-2">
+              <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />{" "}
               <a 
                 href="tel:+2349159521960" 
                 className="underline hover:text-primary transition-colors break-all"
@@ -40,7 +41,7 @@ const Footer = () => {
                 +234 915 952 1960
               </a>
               <span className="hidden sm:inline">{" "} | </span>
-              <span className="block sm:inline">📧{" "}</span>
+              <span className="block sm:inline"><Mail className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />{" "}</span>
               <a 
                 href="mailto:info@nanocodes.com.ng" 
                 className="underline hover:text-primary transition-colors break-all"

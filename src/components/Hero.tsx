@@ -155,13 +155,13 @@ const Hero = () => {
           <div className="space-y-8 text-white">
             <div className="inline-block">
               <span className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 py-2 text-sm font-semibold text-secondary-foreground">
-                🚀 Transform Your Career in 2024
+                Transform Your Career in 2024
               </span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl font-bold leading-tight lg:text-5xl xl:text-6xl">
               Stuck in a Dead-End Job?{" "}
-              <span className="text-secondary">Learn Tech Skills</span> That Pay 3300k to ₦6M/month
+              <span className="text-secondary">Learn Tech Skills</span> That Pay 300k to ₦6M/month
             </h1>
 
             <p className="text-base sm:text-lg text-white/90 lg:text-xl">
@@ -171,7 +171,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
               <a href="tel:+2349159521960" className="w-full sm:w-auto">
                 <Button size="lg" variant="secondary" className="w-full sm:w-auto text-sm sm:text-base font-semibold shadow-lg hover:shadow-xl transition-all">
-                  <span className="hidden sm:inline">📞 </span>Call Now: +234 915 952 1960
+                  Call Now: +234 915 952 1960
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="w-full sm:w-auto border-2 border-white bg-white/10 text-white hover:bg-white hover:text-primary text-sm sm:text-base font-semibold backdrop-blur-sm">
@@ -191,7 +191,7 @@ const Hero = () => {
             <div className="rounded-2xl bg-white p-6 sm:p-8 shadow-premium lg:p-10">
               <div className="mb-6 text-center">
                 <h3 className="text-xl sm:text-2xl font-bold text-primary lg:text-3xl">
-                  🚀 Book FREE Career Strategy Session
+                  Book FREE Career Strategy Session
                 </h3>
                 <div className="mt-2 h-1 w-20 bg-secondary mx-auto rounded-full"></div>
               </div>

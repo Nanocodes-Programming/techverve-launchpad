@@ -22,7 +22,7 @@ const SpecialOffer = () => {
             <div className="text-center mb-6 sm:mb-8">
               <div className="inline-block mb-4">
                 <span className="inline-flex items-center gap-2 rounded-full bg-secondary px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base lg:text-lg font-bold text-secondary-foreground animate-pulse">
-                  🔥 DECEMBER ENROLLMENT SPECIAL
+                  DECEMBER ENROLLMENT SPECIAL
                 </span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold text-white lg:text-4xl mb-2">
@@ -48,7 +48,7 @@ const SpecialOffer = () => {
 
             <div className="bg-white/10 rounded-xl p-4 sm:p-6 mb-6 sm:mb-8 border border-white/20">
               <p className="text-white font-semibold text-base sm:text-lg mb-3 sm:mb-4">
-                🎁 BONUS: First 20 students get FREE domain + hosting for portfolio site
+                BONUS: First 20 students get FREE domain + hosting for portfolio site
               </p>
 
               <div className="space-y-2 text-white/90">
@@ -73,14 +73,14 @@ const SpecialOffer = () => {
             <div className="text-center space-y-3 sm:space-y-4">
               <a href="#hero-form" onClick={scrollToHeroForm} className="block">
                 <Button size="lg" className="w-full lg:w-auto gradient-cta hover:opacity-90 text-base sm:text-lg lg:text-xl font-bold py-6 sm:py-8 px-6 sm:px-12 animate-pulse-slow shadow-2xl">
-                  🚀 LOCK IN THIS DEAL TODAY
+                  LOCK IN THIS DEAL TODAY
                 </Button>
               </a>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-white/90">
                 <Clock className="h-4 w-4 sm:h-5 sm:w-5 text-secondary" />
                 <p className="text-xs sm:text-sm font-semibold text-center">
-                  ⏰ Only 8 spots left in December cohort <span className="hidden sm:inline">|</span> <span className="block sm:inline">Next intake: February 2026</span>
+                  Only 8 spots left in December cohort <span className="hidden sm:inline">|</span> <span className="block sm:inline">Next intake: February 2026</span>
                 </p>
               </div>
             </div>
